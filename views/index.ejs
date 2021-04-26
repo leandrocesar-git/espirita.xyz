@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script type="text/javascript">
+        if (window.location.protocol != "https:") {
+          window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        }
+      </script>
+
+    <title><%= title %></title>
+    <meta charset="utf-8">
+    <meta name="author" content="Leandro Cesar">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="faviconImg/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="faviconImg/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="faviconImg/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="faviconImg/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="faviconImg/favicon-16x16.png">
+    <link rel="manifest" href="faviconImg/site.webmanifest">
+    <link rel="mask-icon" href="faviconImg/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- logotipo fazendo um coração verde com a letra "E" tipo: "S2"  -->
+    
+    <script src="https://kit.fontawesome.com/da2962ce7f.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/normalize.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="nav-menu">      
+      <div class="nav-barra">
+        <input type="checkbox" id="check">
+        <label class="menu" for="check">
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+        </label>
+        <h1><a href="/"><%= title %></a></h1>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">index</a></li>
+        <li><a href="sobre">sobre</a></li>
+      </ul>
+    </nav>
+    <main>
+      
+    </main>
+    <footer>
+      <p>
+        <a href="https://espirita.xyz"><%= title %></a> by <%= author %>
+      </p>
+    </footer>
+  </body>
+</html>

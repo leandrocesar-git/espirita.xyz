@@ -1,0 +1,140 @@
+body {
+  font: 14px 'Philosopher', sans-serif;
+  background-color:aliceblue;
+  color: #666;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #787878;
+  font-weight: normal;
+  margin: 0.1em 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+sup, sub {
+  font-size: 10px;
+}
+
+blockquote {
+  border-left: solid 5px #efefef;
+  margin: 2em 0;
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+code {
+  background: #f7f7f7;
+  border-radius: .35em;
+  border: solid 2px #efefef;
+  font-size: .9em;
+  padding: .25em .65em;
+  font-family: 'Courier New', Courier, monospace;
+  color: #929292;
+}
+
+pre code {
+  display: block;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+abbr {
+  cursor: help;
+}
+
+main {
+  color: black
+}
+
+a {
+  color:#666;
+  transition: color 1s linear;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #429b69;
+}
+
+
+/* barra superior de navegação */
+.nav-barra {
+  position: fixed;
+  height: 8%;
+  width: 100%;
+  border-bottom: solid 0.1px #429b6960;
+}
+
+.nav-barra a {
+  padding: 10px 0px 0px 40px;
+}
+
+
+/* menu */
+.menu {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.menu-bar {
+  height: 2px;
+  width: 20px;
+  background-color: #666;
+  margin-bottom: 4px;
+}
+
+#check {
+  display: none;
+}
+
+
+/* main */
+main{
+  height: 800px;
+  width:90%;
+  margin: auto;
+}
+
+/* footer */
+footer {
+  height: 50px;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  border-top: solid .1px #429b6940;
+}
