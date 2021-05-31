@@ -124,13 +124,13 @@ a:hover {
     padding: 3px;
     display: block;
     text-align: center;
-    background-color: #223240ec;
-    color: #fabf41;
+    background-color: #ffffff60;
+    color: #666;
   }
 
   .menu a:hover {
-    background-color: #777;
-    color: #223240;
+    background-color: #fff;
+    color: #429b69;
   }
 
   .menu a:active {
@@ -181,7 +181,7 @@ a:hover {
   }
 
 /* menu */
-/* .menu {
+.menu {
   position: absolute;
   top: 25px;
   right: 40px;
@@ -197,7 +197,7 @@ a:hover {
 
 #check {
   display: none;
-} */
+}
 
 
 /* main */
